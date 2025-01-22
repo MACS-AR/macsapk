@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
-import 'product_database.dart'; // قاعدة البيانات
+import 'product_database.dart';
 
 void main() {
   runApp(MyApp());
