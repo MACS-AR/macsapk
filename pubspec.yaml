@@ -1,0 +1,15 @@
+name: supermarket_pos
+description: A supermarket POS Flutter app.
+publish_to: "none"
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.15.0
+  stripe_payment: ^1.0.0
+
+flutter:
+  uses-material-design: true
