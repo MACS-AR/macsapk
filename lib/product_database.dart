@@ -22,7 +22,7 @@ class ProductDatabase {
   }
 
   Future _createDB(Database db, int version) async {
-    await db.execute('''
+    await db.execute(''' 
       CREATE TABLE products (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT NOT NULL,
